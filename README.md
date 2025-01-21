@@ -22,7 +22,7 @@ Here is the updated README to include the details about `Color_based_code.py`, `
 ## Usage
 
 ### Running the Algorithms
-1. Use `run.py` to define input data paths and parameters for the algorithms.
+1. Modify `run.py` to define input data paths and parameters for the algorithms (if one wish to run multiple cases in parallel).
 2. Run the desired algorithm:
    - **Color-Based Algorithm**:
      ```bash
