@@ -22,8 +22,9 @@ Here is the updated README to include the details about `Color_based_code.py`, `
 ## Usage
 
 ### Running the Algorithms
+#### There are two ways of running the algorithm
 1. Modify `run.py` to define input data paths and parameters for the algorithms (if one wish to run multiple cases in parallel).
-2. Run the desired algorithm:
+2. Run the desired algorithm for a specific sets of data and parameters:
    - **Color-Based Algorithm**:
      ```bash
      python Color_based_code.py --AF allele_frequency_matrix.txt --Data data.pkl --S_es initial_haplotype_structure.txt --W_es initial_haplotype_weights.txt --M_iter 3
