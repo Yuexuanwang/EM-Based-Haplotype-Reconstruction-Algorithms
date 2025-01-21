@@ -18,7 +18,7 @@ import multiprocess as mp
 import os,sys,optparse,time,pathlib,pickle,math,copy,random,subprocess,re,itertools
 
 def run_clear(case_num):
-    text_path = '/Users/mac/Desktop/MCTScode/cleaned_code/50SNP200Reads/' + str(case_num)
+    text_path = '/path/to/your/data/' + str(case_num)
     
     string = 'mpirun -np 10 python Color_based_code.py --AF ' + text_path + '/AF.txt  --Data ' + text_path  +'/data.pkl --S_es ' + text_path + '/S_0.txt --W_es ' + text_path + '/W_0.txt'
     print(string)
