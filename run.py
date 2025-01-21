@@ -1,10 +1,6 @@
 
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 22 22:01:36 2023
 
-@author: mac
-"""
 
 import numpy as np
 from scipy.stats import binom
