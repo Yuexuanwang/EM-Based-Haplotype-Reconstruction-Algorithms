@@ -13,7 +13,7 @@ Here is the updated README to include the details about `Color_based_code.py`, `
 
 ### Supporting Scripts:
 - **`run.py`**  
-  A script to define input data and user-defined parameters for running the algorithms. It uses parallelization for running multiple cases efficiently.
+  A script to define input data and user-defined parameters for running the algorithms. It uses parallelization for running multiple cases efficiently. Note that you will need to modify the script before running "python run.py".
   
 - **`backends`**  
   A package that facilitates parallel computation, ensuring scalability and faster processing of large datasets.
